@@ -1,0 +1,220 @@
+ab	
+away from
+abs	
+away from
+a	
+away from
+acerb	
+bitter
+ad	
+to
+an	
+to
+af	
+to
+a	
+to
+agri    
+field, soil
+amor	
+love
+amat	
+love
+ous	
+full of
+ambi	
+both
+ampl	
+abundant
+ann	
+year
+enn	
+year
+ante	
+before
+anti	
+before
+aqu	
+water
+audi	
+hearing
+avi	
+bird
+be	
+bless
+beout	
+bless
+antrop	
+human
+anti	
+against
+a	
+not/without
+an	
+not/without
+arch	
+rule
+bell	
+war
+ben	
+well
+bi	
+two
+brev	
+short
+burs	
+purse
+bio	
+life
+bibl	
+book
+cant	
+sing
+cand	
+glowing
+cast	
+pure
+cav	
+hollow
+ced	
+go
+ces	
+go
+cent	
+100
+cid	
+cut
+cis	
+to cut
+circum	
+around
+clar	
+clear
+claus	
+to close
+clud	
+to close
+clus	
+to close
+clin	
+to lean, bend
+co	
+with
+cogn	
+know
+contra	
+against, opposite
+cred	
+trust
+culp	
+blame, fault
+curr	
+run
+curs	
+run
+chrom	
+color
+chron	
+time
+cac	
+bad
+cosm	
+order
+de	
+away from
+dent	
+tooth
+dont	
+tooth
+dict	
+say, speak
+doc	
+teach
+doct	
+teach
+dorm	
+sleep
+duc	
+lead
+duct	
+lead
+dia	
+across, through
+dem	
+peeple
+derm	
+skin
+ego	
+self
+equ	
+even, level
+ex	
+out
+e	
+out
+Extra	
+outer, utmost
+extrem	
+outer (utmost)
+Fac	
+Make
+Fic	
+Make
+Faclt
+Make
+fect	
+Make
+Fall	
+Deprive
+Fals	
+Deceptive
+Fatu	
+foolish, useless
+Feder	
+Agreement, treaty
+Felic	
+Happy
+Fer	
+Carry
+Fid	
+Faith
+Erg	
+Work
+Urg	
+Work
+Org	
+Work
+Fili	
+son
+-y	
+the idea of
+Fl	
+blow
+Flect	
+bend
+flex	
+bend
+flu	
+flow
+flux	
+flow
+form	
+shape
+Frat	
+break
+Frag	
+break
+fus	
+pour
+gest	
+carry
+grad	
+walk, step, go
+gress	
+walk, step, go
+gran	
+grain
+gram	
+grain
+grand	
+large
