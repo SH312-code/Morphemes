@@ -15,10 +15,8 @@ def data_collect(info: list):
             terms.append(root)
         else:
             defintions.append(info[i])
-
     for i in range(len(terms)):
         q.append([terms[i], defintions[i]])
-    random.shuffle(q)
     return q
 space = ' '
 def quiz(list: list):
@@ -26,9 +24,9 @@ def quiz(list: list):
     for i in range(len(list)):
         question = list[i-1]
         to_ask = question[0]
-        answer = question[1]
+        answer = question[1].upper()
         answer = str(answer).split(',')
-        ask = input("Define " + str(to_ask))
+        ask = input("Define " + str(to_ask)).upper()
         if ask == space.join(answer):
             print("Correct")
         elif ask in answer:
@@ -37,9 +35,9 @@ def quiz(list: list):
             print(f"Sorry the correct answer was {str(answer)}")
             while True:
                 try:
-                    incorrect = input("Did you get this wrong? (True/False)")
-                    if incorrect.upper() in ['TRUE', 'FALSE']:
-                        if incorrect.upper() == 'TRUE':
+                    incorrect = input("Did you get this wrong? (Yes/No)")
+                    if incorrect.upper() in ['YES', 'NO']:
+                        if incorrect.upper() == 'YES':
                             for word in question:
                                 wrong.append(word)
                             print("Question marked for review")
@@ -70,7 +68,9 @@ def test_case():
         print(counter, i)
         counter +=1
 def full_run():
-    quiz(data_collect(data))
+    start_words = data_collect(data)
+    random.shuffle(start_words)
+    quiz(start_words)
     after()
 
 full_run()
