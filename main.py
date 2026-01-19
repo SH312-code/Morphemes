@@ -1,12 +1,11 @@
 import random
-def read_file(filename):#This function reads a file and extracts the data as a list seperated by the lines in the flies. 
+def read_file(filename):#This function reads a file and extracts the data as a list separated by the lines in the flies. 
     with open(filename, "r") as f:
         return f.read().splitlines()
-
 data = read_file("morphemes.txt")
 wrong =[]
 def data_collect(info: list):
-    defintions = []
+    definitions = []
     terms = []
     q = []
     for i in range((len(info))):
@@ -14,25 +13,26 @@ def data_collect(info: list):
             root = info[i] + " "
             terms.append(root)
         else:
-            defintions.append(info[i])
+            definitions.append(info[i])
     for i in range(len(terms)):
-        q.append([terms[i], defintions[i]])
+        q.append([terms[i], definitions[i]])
     return q
 space = ' '
 def quiz(list: list):
+    global wrong
     wrong = []
     for i in range(len(list)):
         question = list[i-1]
         to_ask = question[0]
-        answer = question[1].upper()
-        answer = str(answer).split(',')
+        answer = question[1]
+        answer = (str(answer).upper()).split(',')
         ask = input("Define " + str(to_ask)).upper()
         if ask == space.join(answer):
             print("Correct")
         elif ask in answer:
-            print(f"Half right all are listed, {str(answer)}")
+            print(f"Half right all are listed, {str(answer).lower()}")
         else:
-            print(f"Sorry the correct answer was {str(answer)}")
+            print(f"Sorry the correct answer was {str(answer).lower()}")
             while True:
                 try:
                     incorrect = input("Did you get this wrong? (Yes/No)")
